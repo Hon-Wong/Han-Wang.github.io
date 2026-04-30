@@ -237,6 +237,17 @@ h2 {
   object-fit: contain;
 }
 
+.placeholder-thumb {
+  color: #7a4b2a;
+  background: linear-gradient(135deg, #fff8ef, #f7efe3);
+  border: 1px solid #ead8c6;
+  font-family: "Source Serif Pro", Georgia, "Times New Roman", serif;
+  font-size: 22px;
+  font-weight: 600;
+  line-height: 1.2;
+  text-align: center;
+}
+
 .papertitle {
   font-size: 16px;
   font-weight: 700;
@@ -268,6 +279,11 @@ h2 {
   color: var(--muted);
   font-size: 14px;
   line-height: 1.55;
+}
+
+.equal-note {
+  color: #666;
+  font-style: italic;
 }
 
 .tag {

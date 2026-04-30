@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="author" content="Han Wang">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta name="description" content="Han Wang - ELLIS Ph.D. student and Senior AI Engineer working on LLMs, multimodal large language models, video understanding, and efficient vision-language systems.">
+    <meta name="description" content="Han Wang - ELLIS Ph.D. student and former Senior AI Engineer working on LLMs, multimodal large language models, video understanding, and efficient vision-language systems.">
     <title>Han Wang</title>
     <link rel="stylesheet" href="stylesheet.css">
   </head>
@@ -21,8 +21,8 @@
             <a href="https://hildekuehne.github.io/">Prof. Hilde Kuehne</a> at the University of Tuebingen.
           </p>
           <p>
-            I also work as a Senior AI Engineer at ByteDance AML, Seed, and Douyin, where I build multimodal
-            large language models for video understanding and industrial-scale training. My research interests
+            I previously worked as a Senior AI Engineer at ByteDance AML, Seed, and Douyin, where I built
+            multimodal large language models for video understanding and industrial-scale training. My research interests
             include LLMs, MLLMs, video understanding, efficient visual token compression, encoder-free
             vision-language models, document understanding, and diffusion/flow LLMs.
           </p>
@@ -36,15 +36,6 @@
         <div class="profile-image">
           <img src="assets/images/han-wang.jpg" alt="Portrait of Han Wang">
         </div>
-      </section>
-
-      <section class="news-section">
-        <h2>News</h2>
-        <p class="news-item"><span class="news-date">11.2025</span>ChineseVideoBench was released for Chinese video question answering evaluation.</p>
-        <p class="news-item"><span class="news-date">10.2025</span>SAIL-VL2 Technical Report was released.</p>
-        <p class="news-item"><span class="news-date">09.2025</span>Dynamic-VLM was accepted to ICCV 2025.</p>
-        <p class="news-item"><span class="news-date">05.2025</span>WildDoc was released and accepted to EMNLP 2025.</p>
-        <p class="news-item"><span class="news-date">03.2025</span>Vision as LoRA was released with fully open code.</p>
       </section>
 
       <section>
@@ -68,11 +59,11 @@
           </div>
           <div>
             <h3>Industrial Experience</h3>
-            <p><strong>Senior AI Engineer</strong>, ByteDance AML, Seed, Douyin<br><span class="date">2023 - Present</span></p>
+            <p><strong>Senior AI Engineer</strong>, ByteDance AML, Seed, Douyin<br><span class="date">2023 - 2025</span></p>
             <ul class="compact-list">
               <li>Built MLLM systems for video summarization, relevance, grounding, tracking, and RL for MLLMs.</li>
               <li>Developed billion-scale training frameworks and trained models with up to 1,024 GPUs.</li>
-              <li>Led VoRA2, an internal encoder-free MLLM trained on 800M samples; contributed to SAIL-VL2.</li>
+              <li>Led VoRA2, an internal encoder-free MLLM trained on 800M samples.</li>
             </ul>
             <p><strong>AI Research Intern</strong>, ByteDance<br><span class="date">2022 - 2023</span></p>
             <p><strong>AI Research Intern</strong>, AI Research Center, HIKVISION Inc.<br><span class="date">2022</span></p>
@@ -81,7 +72,7 @@
       </section>
 
       <section>
-        <h2>Selected Publications</h2>
+        <h2>Featured Publications</h2>
         <table class="pub-table">
           <tbody>
             <tr class="pub-row highlight">
@@ -94,6 +85,19 @@
                 <div class="venue">ICCV 2025</div>
                 <div class="paper-links"><a href="https://arxiv.org/abs/2412.09530">Paper</a> · <a href="https://github.com/Hon-Wong/ByteVideoLLM">Code</a></div>
                 <p class="paper-desc">Dynamically compresses video tokens so VideoLLMs can balance frame-level details and long-context understanding.</p>
+              </td>
+            </tr>
+
+            <tr class="pub-row highlight">
+              <td class="pub-figure">
+                <div class="thumb-frame"><img src="assets/images/chinesevideobench.png" alt="Figure from ChineseVideoBench"></div>
+              </td>
+              <td class="pub-text">
+                <a href="https://arxiv.org/abs/2511.18399"><span class="papertitle">ChineseVideoBench: Benchmarking Multi-modal Large Models for Chinese Video Question Answering</span></a>
+                <div class="authors">Yuxiang Nie*, <strong>Han Wang*</strong>, Yongjie Ye, Haiyang Yu, Weitao Jia, Tao Zeng, Hao Feng, Xiang Fei, Yang Li, Xiaohui Lv, Guozhi Tang, Jingqun Tang, Jinghui Lu, Zehui Dai, Jiacong Wang, Dingkang Yang, An-Lan Wang, Can Huang</div>
+                <div class="venue">Preprint</div>
+                <div class="paper-links"><a href="https://arxiv.org/abs/2511.18399">Paper</a></div>
+                <p class="paper-desc">A Chinese video question answering benchmark for evaluating MLLMs across language, culture, and video understanding tasks. <span class="equal-note">* Equal contribution.</span></p>
               </td>
             </tr>
 
@@ -138,27 +142,14 @@
 
             <tr class="pub-row">
               <td class="pub-figure">
-                <div class="thumb-frame"><img src="assets/images/laytextllm.png" alt="Figure from LayTextLLM"></div>
+                <div class="thumb-frame"><img src="assets/images/colordiff.png" alt="Figure from Multimodal Semantic-Aware Automatic Colorization"></div>
               </td>
               <td class="pub-text">
-                <a href="https://arxiv.org/abs/2407.01976"><span class="papertitle">A Bounding Box is Worth One Token: Interleaving Layout and Text in a Large Language Model for Document Understanding</span></a>
-                <div class="authors">Jinghui Lu, Haiyang Yu, Yanjie Wang, Yongjie Ye, Jingqun Tang, Ziwei Yang, Binghong Wu, Qi Liu, Hao Feng, <strong>Han Wang</strong>, Hao Liu, Can Huang</div>
-                <div class="venue">ACL Findings 2025</div>
-                <div class="paper-links"><a href="https://arxiv.org/abs/2407.01976">Paper</a></div>
-                <p class="paper-desc">Interleaves text and layout as tokenized bounding boxes for document understanding with large language models.</p>
-              </td>
-            </tr>
-
-            <tr class="pub-row">
-              <td class="pub-figure">
-                <div class="thumb-frame"><img src="assets/images/wilddoc.png" alt="Figure from WildDoc"></div>
-              </td>
-              <td class="pub-text">
-                <a href="https://arxiv.org/abs/2505.11015"><span class="papertitle">WildDoc: How Far Are We from Achieving Comprehensive and Robust Document Understanding in the Wild?</span></a>
-                <div class="authors">An-Lan Wang, Jingqun Tang, Liao Lei, Hao Feng, Qi Liu, Xiang Fei, Jinghui Lu, <strong>Han Wang</strong>, Weiwei Liu, Hao Liu, Yuliang Liu, Xiang Bai, Can Huang</div>
-                <div class="venue">EMNLP 2025</div>
-                <div class="paper-links"><a href="https://arxiv.org/abs/2505.11015">Paper</a> · <a href="https://wilddoc-benchmark.github.io/">Project</a></div>
-                <p class="paper-desc">Benchmarks document understanding in real-world captured document images beyond scanned and digital-document settings.</p>
+                <a href="https://arxiv.org/abs/2404.16678"><span class="papertitle">Multimodal Semantic-Aware Automatic Colorization with Diffusion Prior</span></a>
+                <div class="authors"><strong>Han Wang</strong>, Xinning Chai, Yiwen Wang, Yuhong Zhang, Rong Xie, Li Song</div>
+                <div class="venue">CoRR 2024</div>
+                <div class="paper-links"><a href="https://arxiv.org/abs/2404.16678">Paper</a> · <a href="https://servuskk.github.io/ColorDiff-Image/">Project</a></div>
+                <p class="paper-desc">Uses multimodal semantic priors and diffusion models for plausible, saturated, and faithful automatic image colorization.</p>
               </td>
             </tr>
 
@@ -177,66 +168,30 @@
 
             <tr class="pub-row">
               <td class="pub-figure">
-                <div class="thumb-frame"><img src="assets/images/chinesevideobench.png" alt="Figure from ChineseVideoBench"></div>
+                <div class="thumb-frame placeholder-thumb">Sports<br>Tracking</div>
               </td>
               <td class="pub-text">
-                <a href="https://arxiv.org/abs/2511.18399"><span class="papertitle">ChineseVideoBench: Benchmarking Multi-modal Large Models for Chinese Video Question Answering</span></a>
-                <div class="authors">Yuxiang Nie, <strong>Han Wang</strong>, et al.</div>
-                <div class="venue">Preprint</div>
-                <div class="paper-links"><a href="https://arxiv.org/abs/2511.18399">Paper</a></div>
-                <p class="paper-desc">Evaluates open-source and closed-source MLLMs across Chinese video understanding tasks.</p>
+                <a href="https://ieeexplore.ieee.org/document/10008906"><span class="papertitle">A Large-scale Sports Tracking Dataset and Progressive Re-detection Based Sports Tracking</span></a>
+                <div class="authors"><strong>Han Wang</strong>, Xiaojun Zhou, Qinyu Xu, Huaqiang Ren, Rong Xie, Li Song</div>
+                <div class="venue">VCIP 2022</div>
+                <div class="paper-links"><a href="https://ieeexplore.ieee.org/document/10008906">Paper</a></div>
+                <p class="paper-desc">Builds a large-scale sports tracking dataset and proposes progressive re-detection for sports tracking.</p>
               </td>
             </tr>
 
             <tr class="pub-row">
               <td class="pub-figure">
-                <div class="thumb-frame"><img src="assets/images/sail-vl2.png" alt="Figure from SAIL-VL2"></div>
+                <div class="thumb-frame placeholder-thumb">In<br>Submission</div>
               </td>
               <td class="pub-text">
-                <a href="https://arxiv.org/abs/2509.14033"><span class="papertitle">SAIL-VL2 Technical Report</span></a>
-                <div class="authors">Contributor</div>
-                <div class="venue">Technical Report</div>
-                <div class="paper-links"><a href="https://arxiv.org/abs/2509.14033">Paper</a></div>
-                <p class="paper-desc">A strong MLLM family with broad upgrades across visual, textual, and reasoning capabilities.</p>
-              </td>
-            </tr>
-
-            <tr class="pub-row">
-              <td class="pub-figure">
-                <div class="thumb-frame"><img src="assets/images/eve.png" alt="Figure from EVE"></div>
-              </td>
-              <td class="pub-text">
-                <a href="https://arxiv.org/abs/2503.04058"><span class="papertitle">EVE: Towards End-to-End Video Subtitle Extraction with Vision-Language Models</span></a>
-                <div class="authors">Haiyang Yu, Jinghui Lu, Yanjie Wang, Yang Li, <strong>Han Wang</strong>, Can Huang, Bin Li</div>
-                <div class="venue">Preprint</div>
-                <div class="paper-links"><a href="https://arxiv.org/abs/2503.04058">Paper</a></div>
-                <p class="paper-desc">Replaces multi-stage subtitle extraction with an end-to-end VLM-based approach.</p>
-              </td>
-            </tr>
-
-            <tr class="pub-row">
-              <td class="pub-figure">
-                <div class="thumb-frame"><img src="assets/images/car.png" alt="Figure from certainty-based adaptive routing paper"></div>
-              </td>
-              <td class="pub-text">
-                <a href="https://arxiv.org/abs/2505.15154"><span class="papertitle">Prolonged Reasoning Is Not All You Need: Certainty-Based Adaptive Routing for Efficient LLM/MLLM Reasoning</span></a>
-                <div class="authors">Jinghui Lu, Haiyang Yu, Siliang Xu, Ranshiwei, Guozhi Tang, Siqi Wang, Bin Shan, Teng Fu, Hao Feng, Jingqun Tang, <strong>Han Wang</strong>, Can Huang</div>
-                <div class="venue">Preprint</div>
-                <div class="paper-links"><a href="https://arxiv.org/abs/2505.15154">Paper</a></div>
-                <p class="paper-desc">Routes LLM and MLLM reasoning adaptively using certainty signals instead of always relying on prolonged reasoning.</p>
+                <span class="papertitle">Deep Trajectory Supervision: Deep Supervision Strikes Bike</span>
+                <div class="authors"><strong>Han Wang</strong>, et al.</div>
+                <div class="venue">In submission</div>
+                <p class="paper-desc">Details will be updated after the paper is public.</p>
               </td>
             </tr>
           </tbody>
         </table>
-      </section>
-
-      <section>
-        <h2>More Work</h2>
-        <ul class="compact-list">
-          <li><strong>A Large-scale Sports Tracking Dataset and Progressive Re-detection Based Sports Tracking</strong>, <strong>Han Wang</strong>, Xiaojun Zhou, Qinyu Xu, Huaqiang Ren, Rong Xie, Li Song. VCIP 2022. <a href="https://ieeexplore.ieee.org/document/10008906">Paper</a></li>
-          <li><strong>Deep Trajectory Supervision: Deep Supervision Strikes Bike</strong>, <strong>Han Wang</strong>, et al. In submission.</li>
-          <li><strong>VideoQFormer: Cross-Modal Video Understanding with Spatio-temporal Querying Transformer</strong>, Yuxiang Nie, <strong>Han Wang</strong>, Yanjie Wang, Guanbin Li, Liang Lin, Can Huang. In submission.</li>
-        </ul>
       </section>
 
       <section>
